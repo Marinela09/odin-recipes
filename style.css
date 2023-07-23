@@ -1,0 +1,59 @@
+body {
+    background-color:antiquewhite;
+    
+}
+
+h1 {
+    color:rosybrown;
+    font-size: 60px;
+
+}
+
+h1 {
+  
+}
+
+a:hover {
+    color:blue;
+}
+
+a {
+    color: royalblue;
+}
+
+h2 {
+    color:rosybrown;
+]}
+
+.recipes {
+    font-size: 30px;
+}
+
+ul li::marker{
+    color: rosybrown;
+}
+
+.frame {
+    border: 20px solid rosybrown;
+    width:320px;
+    height:213px;
+
+  }
+
+  #all {
+    margin: auto;
+    width: 30%;
+    border: 30px solid rosybrown;
+    padding: 150px;
+    animation-name: frameanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-image:url("./images/cooking.png")
+  }
+
+  
+  @keyframes frameanimation {
+    from {border-color: rosybrown;}
+    to {border-color: royalblue;}
+  }
+  
